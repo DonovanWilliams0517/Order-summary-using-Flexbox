@@ -1,0 +1,85 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 3em;
+}
+
+.plan {
+
+    background-color: white;
+    width: 20em;
+    border-radius: 1em;
+}
+
+.person {
+    max-width: 100%;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+.plan-select {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    margin: 1.5em;
+    border-radius: .5em;
+}
+
+.music {
+    width: 2em;
+    height: 2em;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 1em;
+}
+
+.pricing {
+    padding-left: 1em;
+    line-height: 5%;
+}
+
+a,
+p,
+h1,
+h5 {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+a {
+    margin: auto;
+    font-size: 16px;
+}
+
+a:hover {
+    color: hsl(224, 23%, 55%);
+}
+
+p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+button {
+    border: none;
+    border-radius: .5em;
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
+    width: 20em;
+    height: 3em;
+}
+
+button:hover {
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+p:nth-of-type(2):hover {
+    color: black;
+    cursor: pointer;
+}
