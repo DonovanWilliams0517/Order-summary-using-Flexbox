@@ -15,7 +15,7 @@ Users should be able to:
 
 ###Screenshot
 
-  
+![order-summary](https://github.com/DonovanWilliams0517/Order-summary-using-Flexbox/assets/124460555/df7f29d8-62c2-458d-ab2a-42cb42582606)
 
 ### Links
 
